@@ -11,18 +11,106 @@
   <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
 </head>
 <body>
-  <section>
-  <form action=""class="grid" method="">
-      <div class="green unit xs-1 s-1 m-1 l-1 xl-1">
-        <h1>Apply to be a tree planter</h1>
-        <p>Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
+  <header class="green header">
+    <div class="wrapper header pad-t pad-b gutter-1-4 unit xs-1 s-1 m-1 l-1 xl-1">
+      <h1 class="push-0">Apply to be a tree planter</h1>
+      <p>Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
+    </div>
+  </header>
+
+
+  <form action="https://formspree.io/" method="POST">
+    <div class="grid">
+      <div class="xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+        <label for="fullname">Full name</label>
+        <input type="fullname" id="fullname">
+      </div>
+
+      <div class="xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+        <label for="What-should-we-call-you">What should we call you</label>
+        <input id="What-should-we-call-you">
+      </div>
+
+      <div class="xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+        <label for="Date-of-birth">Date of birth</label>
+        <input type="date" id="Date-of-birth">
+      </div>
+
+      <div class="xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+        <label for="t-shirtsize">T-shirt size</label>
+        <select id="t-shirtsize">
+          <option>- Select a t-shirt size</option>
+          <option>- Fitted: XS</option>
+          <option>- Fitted: S</option>
+          <option>- Fitted: M</option>
+          <option>- Fitted: L</option>
+          <option>- Fitted: XL</option>
+          <option>- Straight-cut: XS</option>
+          <option>- Straight-cut: S</option>
+          <option>- Straight-cut: M</option>
+          <option>- Straight-cut: L</option>
+          <option>- Straight-cut: XL</option>
+        </select>
+        </div>
+
+        <div class="xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+          <label for="email">Email</label>
+          <input type="Email" id="Email">
+        </div>
+
+        <div class="xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+          <label for="Phone-number">Phone number (optional)</label>
+          <input type="phone-number" id="phone-number">
+        </div>
       </div>
       <div>
-        <label for="Personal details">Personal details</label>
-        <input type="Personal details" id="Personal details">
+
+        <div>
+          <label for="street-address">Street address</label>
+          <input type="street-address" id="street-address">
+        <div>
+
+        <div>
+          <label for="city">City</label>
+          <input type="city" id="city">
+        <div>
+
+        <div>
+          <label for="province">Province</label>
+          <select id="province">
+            <option>- Select a province</option>
+            <option>- Alberta</option>
+            <option>- British Columbia</option>
+            <option>- Manitoba</option>
+            <option>- New Brunswick</option>
+            <option>- Newfoundland & Labrador</option>
+            <option>- Northwest Territories</option>
+            <option>- Nova Scotia</option>
+            <option>- Nunavut</option>
+            <option>- Ontario</option>
+            <option>- Prince Edward Island</option>
+            <option>- Québec</option>
+            <option>- Saskatchewan</option>
+            <option>- Yukon</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="postalcode">Postal Code</label>
+          <input type="postalcode" id="postalcode">
+        </div>
       </div>
-    <button type="submit">Apply</button>
-  </form>
-  </section>
-</body>
-</html>
+      <div>
+
+      </div>
+
+      <button type="submit">Apply</button>
+    </form>
+
+    <footer class="header micro island-1-2 footer grid pin-cb w-1">
+      <div class="unit xs-1 s-1 m-1 l-1 xl-1">
+        <p>© Tree Hugger International Organization</p>
+      </div>
+    </footer>
+  </body>
+  </html>
