@@ -1,14 +1,9 @@
 html {
-  font-family: 'Noto Serif', serif;
-}
-
-body {
-  margin: 0;
-  padding: 0;
+  font-family: "Noto Serif", serif;
 }
 
 .flex {
-  display : block;
+  display: block;
   width: 100%;
 }
 
@@ -23,7 +18,7 @@ p {
 
 footer {
   background-color: #70ad55;
-  color: white;
+  color: #fff;
 }
 
 fieldset {
@@ -38,24 +33,16 @@ input[type="checkbox"] + label::before {
   border-color: #6e8c62;
 }
 
-radio {
-
+.btn {
+  background-color: #6e8c62;
+  border-color: #6e8c62;
 }
 
-btn {
-
-}
-@media only screen and (min-width: 25em) {
-
+hr {
+  border-color: #70ad55;
+  opacity: .3;
 }
 
-@media only screen and (min-width: 38em) {
-
-}
-
-@media only screen and (min-width: 60em) {
-
-  .header {
-    text-align: left;
-  }
+.green {
+  color: #70ad55;
 }
